@@ -89,15 +89,13 @@ height: 100vh;
     border: 1px solid #000;
     border-radius: 12rem;
     margin-top: 2rem;
-    
 }
-
 .submitbutton{
     text-align: center;
 }
        
    
+ /* last */
  
-
 </style>
 
