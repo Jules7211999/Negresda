@@ -14,8 +14,10 @@ use App\Http\Controllers\LoginRegisterFishermen;
 |
 */
 Route::get('/',[LoginRegisterFishermen::class,'index']);
-Route::get('/login',[LoginRegisterFishermen::class,'loginIndex']) ->name('FL');
-Route::get('/register',[LoginRegisterFishermen::class,'RegisterIndex']) ->name('FR');
+Route::get('/login',[LoginRegisterFishermen::class,'loginIndex']) ->name('FLI');
+Route::get('/register',[LoginRegisterFishermen::class,'RegisterIndex']) ->name('FRI');
+Route::post('/login',[LoginRegisterFishermen::class,'Login']) -> name('FL');
+Route::post('/register',[LoginRegisterFishermen::class,'Register']) -> name('FR'); 
 
 
 
