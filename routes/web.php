@@ -13,8 +13,9 @@ use App\Http\Controllers\LoginRegisterFishermen;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/',[LoginRegisterFishermen::class,'index']);
+Route::get('/login',[LoginRegisterFishermen::class,'loginIndex']) ->name('FL');
+Route::get('/register',[LoginRegisterFishermen::class,'RegisterIndex']) ->name('FR');
 
-Route::get('/login',[LoginRegisterFishermen::class,'loginIndex']);
 
-Route::get('/register',[LoginRegisterFishermen::class,'RegisterIndex']);
 
