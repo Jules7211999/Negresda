@@ -24,7 +24,7 @@ class LoginRegisterFishermen extends Controller
                 'Password' => 'required'
             ]);
 
-            auth()->attempt()->only('Name','Password');
+            auth()->attempt($request->only('Name','Password'));
      }
     public function Register(Request $request){
        
