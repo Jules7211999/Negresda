@@ -16,4 +16,23 @@ class LoginRegisterFishermen extends Controller
     public function RegisterIndex(){
         return view('fishermen.register');
     }
+
+    public function Login(Request $request){
+            
+        $request->validate([
+                'Name' => 'required|max:255',
+                'Password' => 'required'
+            ]);
+
+            auth()->attempt()->only('Name','Password');
+     }
+    public function Register(Request $request){
+       
+        $request->validate([
+             'Name' => 'required|max:255',
+             'Username' => 'required|max:255',
+             'Password' => 'required|confirmed|max:255',
+             'Email' => 'email'
+            ]);
+    }
 }

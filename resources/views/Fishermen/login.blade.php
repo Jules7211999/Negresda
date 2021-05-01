@@ -10,7 +10,7 @@
                      <label for="username">Username</label>
                     </li>
                     <li>
-                        <input type="text">
+                        <input type="text" name="Name" value="{{old('Name')}}">
                     </li>
                     <li>
                         <label for="password">Password</label>
