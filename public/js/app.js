@@ -1895,7 +1895,6 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js"
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('test-component', __webpack_require__(/*! ./components/test.vue */ "./resources/js/components/test.vue").default);
 Vue.component('authentication-component', __webpack_require__(/*! ./components/Authentication-Component.vue */ "./resources/js/components/Authentication-Component.vue").default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -6411,7 +6410,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n@media screen and (max-width: 700px) {\n*{\r\n        margin: 0;\r\n        padding:0;\r\n        font-family: \"roboto\",sans-serif;\n}\n.main-wrapper{\r\n        width: 100%;\r\n        display: flex;\r\n        justify-content: center;\r\n        background-image: linear-gradient(to right, rgba(255 255 255 / 0.3) 50%, rgba(255 255 255 / 0.3) 50%),url('/img/bg.jpg');\r\n        background-size: cover;\n}\n.wrapper h1{\r\n    padding-top: 50%;\r\n        font-size: 2rem;\n}\n.wrapper label{\r\n        font-weight: bold;\r\n        margin-right: 5rem;\n}\n.wrapper{\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    width: 70%;\r\n    height: 100vh;\n}\n.wrapper img{\r\n        width: 40%;\n}\n.logo-wrapper{\r\n        text-align: center;\r\n        width:100%;\n}\n.form-wrapper{\r\n    \r\n        width: 100%;\n}\n.wrapper input[type=\"text\"]{\r\n        width: 100%;\r\n        font-size: 1rem;\r\n        margin-bottom: 1rem;\r\n        border: none;\r\n        border-bottom:1px solid #000 ;\r\n        background-color: transparent;\r\n        color: #fff;\r\n        margin-right: 1px;\r\n        margin-top: 0.5rem;\n}\n.wrapper form{\r\n        padding-left: 1rem;\n}\n.wrapper button {\r\n        width: 12rem;\r\n        font-weight: bold;\r\n        height: 4rem;\r\n        font-size: 1.5rem;\r\n        background-color: transparent;\r\n        border: none;\r\n        border: 1px solid #000;\r\n        border-radius: 12rem;\r\n        margin-top: 2rem;\n}\n.submitbutton{\r\n        text-align: center;\n}\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n@media screen and (max-width: 700px) {\n*{\r\n        margin: 0;\r\n        padding:0;\r\n        font-family: \"roboto\",sans-serif;\n}\n.main-wrapper{\r\n        width: 100%;\r\n        display: flex;\r\n        justify-content: center;\r\n        background-image: linear-gradient(to right, rgba(255 255 255 / 0.3) 50%, rgba(255 255 255 / 0.3) 50%),url('/img/bg.jpg');\r\n        background-size: cover;\n}\n.wrapper h1{\r\n    padding-top: 50%;\r\n        font-size: 2rem;\n}\n.wrapper label{\r\n        font-weight: bold;\r\n       margin-top: 1rem;\n}\n.wrapper{\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    width: 70%;\r\n    height: 100vh;\n}\n.wrapper img{\r\n        width: 40%;\n}\n.logo-wrapper{\r\n        text-align: center;\r\n        width:100%;\n}\n.form-wrapper{\r\n    \r\n        width: 100%;\n}\n.wrapper input[type=\"text\"]{\r\n        width: 100%;\r\n        font-size: 1rem;\r\n        border: none;\r\n        border-bottom:1px solid #000 ;\r\n        background-color: transparent;\r\n        color: #fff;\r\n        margin-right: 1px;\r\n        margin-bottom: 1rem;\n}\n.wrapper form{\r\n        padding-left: 1rem;\n}\n.wrapper button {\r\n        width: 12rem;\r\n        font-weight: bold;\r\n        height: 4rem;\r\n        font-size: 1.5rem;\r\n        background-color: transparent;\r\n        border: none;\r\n        border: 1px solid #000;\r\n        border-radius: 12rem;\r\n        margin-top: 2rem;\n}\n.submitbutton{\r\n        text-align: center;\n}\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -37477,43 +37476,6 @@ component.options.__file = "resources/js/components/Authentication-Component.vue
 
 /***/ }),
 
-/***/ "./resources/js/components/test.vue":
-/*!******************************************!*\
-  !*** ./resources/js/components/test.vue ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _test_vue_vue_type_template_id_5b6abe5d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test.vue?vue&type=template&id=5b6abe5d& */ "./resources/js/components/test.vue?vue&type=template&id=5b6abe5d&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-var script = {}
-
-
-/* normalize component */
-;
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__.default)(
-  script,
-  _test_vue_vue_type_template_id_5b6abe5d___WEBPACK_IMPORTED_MODULE_0__.render,
-  _test_vue_vue_type_template_id_5b6abe5d___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/test.vue"
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
-
-/***/ }),
-
 /***/ "./resources/js/components/Authentication-Component.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************!*\
   !*** ./resources/js/components/Authentication-Component.vue?vue&type=script&lang=js& ***!
@@ -37543,23 +37505,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Authentication_Component_vue_vue_type_template_id_3ae5919a___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Authentication_Component_vue_vue_type_template_id_3ae5919a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Authentication-Component.vue?vue&type=template&id=3ae5919a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Authentication-Component.vue?vue&type=template&id=3ae5919a&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/test.vue?vue&type=template&id=5b6abe5d&":
-/*!*************************************************************************!*\
-  !*** ./resources/js/components/test.vue?vue&type=template&id=5b6abe5d& ***!
-  \*************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_test_vue_vue_type_template_id_5b6abe5d___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_test_vue_vue_type_template_id_5b6abe5d___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
-/* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_test_vue_vue_type_template_id_5b6abe5d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./test.vue?vue&type=template&id=5b6abe5d& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/test.vue?vue&type=template&id=5b6abe5d&");
 
 
 /***/ }),
@@ -37608,31 +37553,6 @@ var render = function() {
       _c("div", { staticClass: "form-wrapper" }, [_vm._t("default")], 2)
     ])
   ])
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/test.vue?vue&type=template&id=5b6abe5d&":
-/*!****************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/test.vue?vue&type=template&id=5b6abe5d& ***!
-  \****************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render),
-/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
-/* harmony export */ });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("h1", [_vm._v("test")])
 }
 var staticRenderFns = []
 render._withStripped = true

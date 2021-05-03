@@ -46,7 +46,9 @@ export default {
     }
     .wrapper label{
         font-weight: bold;
-        margin-right: 5rem;
+       margin-top: 1rem;
+
+       
     }
     .wrapper{
     display: flex;
@@ -69,13 +71,13 @@ export default {
     .wrapper input[type="text"]{
         width: 100%;
         font-size: 1rem;
-        margin-bottom: 1rem;
         border: none;
         border-bottom:1px solid #000 ;
         background-color: transparent;
         color: #fff;
         margin-right: 1px;
-        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+     
     }
     .wrapper form{
         padding-left: 1rem;
