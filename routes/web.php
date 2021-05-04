@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Home;
+use App\Http\Controllers\Profile;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginRegisterFishermen;
 
@@ -13,14 +15,13 @@ use App\Http\Controllers\LoginRegisterFishermen;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/',[LoginRegisterFishermen::class,'index'])->name('I');
 Route::get('/login',[LoginRegisterFishermen::class,'loginIndex']) ->name('FLI');
 Route::get('/register',[LoginRegisterFishermen::class,'RegisterIndex']) ->name('FRI');
 Route::post('/login',[LoginRegisterFishermen::class,'Login']) -> name('FL');
 Route::post('/register',[LoginRegisterFishermen::class,'Register']) -> name('FR'); 
+Route::get('/profile',[Profile::class,'index']) -> name('P');
 
-Route::get('/Fhome',[Home::class,'Findex']) -> name('FH');
-Route::get('/Ahome',[Home::class,'Aindex']) -> name('AH');
+
 
 

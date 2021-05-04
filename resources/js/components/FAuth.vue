@@ -34,6 +34,7 @@ export default {
         
     }
     .main-wrapper{
+        padding-bottom: 3rem;
         width: 100%;
         display: flex;
         justify-content: center;

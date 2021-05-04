@@ -10,18 +10,18 @@
                         <label for="Name">Name</label>
                     </li>
                     <li>
-                        <input type="text" name="Name" value="{{old('Name')}}">
+                        <input type="text" name="name" value="{{old('name')}}">
                     </li>
-                        @error('Name')
+                        @error('name')
                                 <div class="error">{{$message}}</div>
                         @enderror
                     <li>
                      <label for="username">Username</label>
                     </li>
                     <li>
-                        <input type="text" name="Username" value="{{old('Username')}}">
+                        <input type="text" name="username" value="{{old('username')}}">
                     </li>
-                        @error('Username')
+                        @error('username')
                             <div class="error">{{$message}}</div>
                         @enderror
                     <li>
@@ -43,7 +43,7 @@
                             <div class="error">{{$message}}</div>
                         @enderror
                     <li>
-                        <label for="email">Email (optional)</label>
+                        <label for="email">Email</label>
                     </li>
                     <li>
                         <input type="text" name="email" value="{{old('Email')}}">

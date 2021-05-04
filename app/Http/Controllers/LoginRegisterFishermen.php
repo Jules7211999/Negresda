@@ -21,35 +21,36 @@ class LoginRegisterFishermen extends Controller
 
     public function Login(Request $request){
             
-        $request->validate([
-                'Name' => 'required|max:255',
-                'Password' => 'required'
+        $this->validate($request,[
+                'username' => 'required|max:255',
+                'password' => 'required|max:255'
             ]);
-            
-                if(!auth()->attempt($request->only('Name','Password'))){
-                    return back()->with('message',$message);
+
+                if(!auth()->attempt($request->only('username','password'))){
+                   dd("invalid");
                 }
+               
                
             
      }
     public function Register(Request $request){
        
       $this->validate($request,[
-             'Name' => 'required|max:255',
-             'Username' => 'required|max:255',
+             'name' => 'required|max:255',
+             'username' => 'required|max:255',
              'password' => 'required|confirmed|max:255',
-             'email' => 'email|max:255',
+             'email' => 'required|email|max:255',
             ]);
 
             
 
          User::create([
-            'name' => $request->Name,
-            'username' => $request->Username,
-            'password' =>Hash::make($request-> Password),
+            'name' => $request->name,
+            'username' => $request->username,
+            'password' =>Hash::make($request-> password),
             'email' => $request->email
          ]);   
 
-        
+        return redirect()->route('FL');
     }
 }

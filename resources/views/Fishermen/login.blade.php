@@ -4,20 +4,27 @@
 
         <authentication-component>
             
-            <form action="" method="post">
+            <form action="{{route('FL')}}" method="post">
+            @csrf
                <ul>
                     <li>
                      <label for="username">Username</label>
                     </li>
                     <li>
-                        <input type="text" name="Name" value="{{old('Name')}}">
+                        <input type="text" name="username" value="{{old('Name')}}">
                     </li>
+                    @error('username')
+                        <div class="error">{{$message}}</div>
+                    @enderror
                     <li>
                         <label for="password">Password</label>
                     </li>
                     <li>
-                        <input type="text">
+                        <input type="text" name="password">
                     </li>
+                    @error('password')
+                        <div class="error"> {{$message}}</div>
+                    @enderror
                     <li>
                         <input type="checkbox">
                         <label for="">Remember Me</label>
