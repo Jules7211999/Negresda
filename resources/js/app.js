@@ -21,8 +21,8 @@ window.Vue = require('vue').default;
 
 
 Vue.component('authentication-component',require('./components/fisherman/Auth.vue').default);
-Vue.component('fprofile-component',require('./components/fisherman/Profile.vue').default);
-Vue.component('fnavbar-component',require('./components/fisherman/Navbar.vue').default);
+Vue.component('profile-component',require('./components/fisherman/Profile.vue').default);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

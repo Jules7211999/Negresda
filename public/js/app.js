@@ -1935,8 +1935,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js"
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 Vue.component('authentication-component', __webpack_require__(/*! ./components/fisherman/Auth.vue */ "./resources/js/components/fisherman/Auth.vue").default);
-Vue.component('fprofile-component', __webpack_require__(/*! ./components/fisherman/Profile.vue */ "./resources/js/components/fisherman/Profile.vue").default);
-Vue.component('fnavbar-component', __webpack_require__(/*! ./components/fisherman/Navbar.vue */ "./resources/js/components/fisherman/Navbar.vue").default);
+Vue.component('profile-component', __webpack_require__(/*! ./components/fisherman/Profile.vue */ "./resources/js/components/fisherman/Profile.vue").default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
