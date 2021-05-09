@@ -1,5 +1,5 @@
 <template>
-<div class="main-wrapper">
+<div class="container-fluid main-wrapper">
     <div class="wrapper">
         <div class="logo-wrapper">
             <h1>Negresda</h1>
@@ -25,7 +25,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 @media screen and (max-width: 700px) {
         *{
         margin: 0;
@@ -35,21 +35,27 @@ export default {
     }
     .main-wrapper{
         padding-bottom: 3rem;
-        width: 100%;
         display: flex;
         justify-content: center;
         background-image: linear-gradient(to right, rgba(255 255 255 / 0.3) 50%, rgba(255 255 255 / 0.3) 50%),url('/img/bg.jpg');
         background-size: cover;
     }
-    .wrapper h1{
+    h1{
     padding-top: 50%;
         font-size: 2rem;
     }
-    .wrapper label{
+    label{
         font-weight: bold;
        margin-top: 1rem;
+    }
+    button{
 
-       
+    width: 50%;       
+    border-radius: 2rem;
+    width: 16rem;
+    margin-top: 2rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
     }
     .wrapper{
     display: flex;
@@ -58,7 +64,7 @@ export default {
     height: 100vh;
 
     }
-    .wrapper img{
+     img{
         width: 40%;
     }
     .logo-wrapper{
@@ -69,7 +75,7 @@ export default {
     
         width: 100%;
     }
-    .wrapper input[type="text"]{
+    input[type="text"]{
         width: 100%;
         font-size: 1rem;
         border: none;
@@ -80,20 +86,8 @@ export default {
         margin-bottom: 1rem;
      
     }
-    .wrapper form{
-        padding-left: 1rem;
-    }
-    .wrapper button {
-        width: 12rem;
-        font-weight: bold;
-        height: 4rem;
-        font-size: 1.5rem;
-        background-color: transparent;
-        border: none;
-        border: 1px solid #000;
-        border-radius: 12rem;
-        margin-top: 2rem;
-    }
+ 
+ 
     .submitbutton{
         text-align: center;
     }

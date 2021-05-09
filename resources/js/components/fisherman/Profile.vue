@@ -12,18 +12,24 @@
       <h2>None</h2>
       <h4>Phone Number</h4>
       <h2>None</h2>
-      <a href=""><button type="button" class="btn btn-outline-dark">Edit Profile Details</button></a>     
+      <a href=""><button type="button" class="btn btn-dark">Edit Profile Details</button></a>     
    </div>
 </template>
        
 <script>
-import navbar from './FNavbar.vue'
+import navbar from './Navbar.vue'
     export default{
        components:{navbar}
     }
 </script>
 
+
 <style scoped>
+
+*{
+      
+   font-family: "roboto",sans-serif;
+}
 h2,h4{
    margin-bottom: 1rem;
 }
@@ -42,10 +48,12 @@ div{
  }
  button{
     margin-top: 2rem;
+    margin-bottom: 2rem;
     width: 50%;
     height: 4rem;
     border-radius: 12rem;
     font-weight: bold;
+    font-size: 1.5rem;
  }
  h4{
     font-size: 1rem;

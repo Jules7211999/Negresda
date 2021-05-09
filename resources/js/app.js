@@ -20,9 +20,9 @@ window.Vue = require('vue').default;
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 
-Vue.component('authentication-component',require('./components/FAuth.vue').default);
-Vue.component('fprofile-component',require('./components/FProfile.vue').default);
-Vue.component('fnavbar-component',require('./components/FNavbar.vue').default);
+Vue.component('authentication-component',require('./components/fisherman/Auth.vue').default);
+Vue.component('fprofile-component',require('./components/fisherman/Profile.vue').default);
+Vue.component('fnavbar-component',require('./components/fisherman/Navbar.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

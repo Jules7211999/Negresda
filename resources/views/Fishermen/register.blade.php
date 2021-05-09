@@ -52,7 +52,7 @@
                             <div class="error">{{$message}}</div>
                         @enderror
                     <li class="submitbutton">
-                         <button type="submit">Sign Up</button>
+                         <button type="submit" class="btn btn-dark">Sign Up</button>
                     </li>      
                </ul>  
             </form>
