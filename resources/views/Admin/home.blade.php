@@ -1,1 +1,5 @@
-<h1>admin home</h1>
+@extends('Admin.layout')
+
+@section('content')
+<h1>Hello</h1>
+@endsection
